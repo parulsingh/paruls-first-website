@@ -4,11 +4,29 @@
   /*font-weight: bold;*/
   padding: 14px 10px;
   /*text-transform: uppercase;*/
-  font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: cursive;
+  /*"Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif*/
 }
+
+.circular {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(parul_pic.jpg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 800px;
+  top: 152px;
+  }
 
 .nav li {
   display: inline;
+  font-family: cursive !important;
+  color: #FFF;
+  font-size: 30px;
+  padding: 14px 10px;
 }
 .nav {
   background-color: #323232;
