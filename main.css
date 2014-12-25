@@ -20,7 +20,17 @@
   position: relative;
   top:100px;
 }
-
+.text-box {
+  position: absolute;
+  width: 450px;
+  padding: 20px;
+  font-size: 24px;
+  font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid #fff;
+}
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;  
