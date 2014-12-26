@@ -79,12 +79,15 @@
 
 .learn-more {
   background-color: #f7f7f7;
+  /*text-align: center;*/
+  
 }
 
 .learn-more h3 {
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
 }
 
 .learn-more a {
@@ -104,4 +107,30 @@
 .neighborhood-guides p {
   margin-bottom: 13px;
   font-size: 15px;
+}
+
+
+.learn-more ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+.learn-more ul {
+    counter-reset: foo;
+    display: table;
+    margin: 0 auto;
+    padding-left: 80px !important;
+}
+
+.learn-more li {
+    list-style-type: circle;
+    counter-increment: foo;
+    display: table-row;
+}
+
+.learn-more li::before {
+    content: counter(foo) ".";
+    display: table-cell;
+    text-align: right;
+    padding-right: .3em;
 }
