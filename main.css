@@ -59,6 +59,7 @@
   color: #FFF !important; 
   font-size: 24px;
   text-align: center
+  height: 290px;
 
 }
 .img {
@@ -70,6 +71,9 @@
 }
 .col-md-4{
   width:292px;
+  height: 278px;
+  text-align: center;
+  position: center;
   /*padding-bottom: 40px;*/
 }
 .col-md-3{
