@@ -7,7 +7,9 @@
   font-family: cursive;
   /*"Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif*/
 }
-
+/*.col-md-4{
+  width: 292px;
+}*/
 .circular {
   width: 300px;
   height: 300px;
@@ -56,6 +58,13 @@
   text-align: center
 }
 
+.col-md-4{
+  width:292px;
+}
+.col-md-3{
+  width:390px;
+  position: center;
+}
 .three-icon {
   padding-bottom: 30px;
 }
@@ -111,7 +120,7 @@
     counter-reset: foo;
     display: table;
     margin: 0 auto;
-    padding-left: 80px !important;
+    padding-left: 75px !important;
 }
 
 .learn-more li {
