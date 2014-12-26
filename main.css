@@ -131,7 +131,7 @@
     counter-reset: foo;
     display: table;
     margin: 0 auto;
-    padding-left: 75px !important;
+    padding-left: 20px !important;
 }
 
 .learn-more li {
