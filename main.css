@@ -38,8 +38,10 @@
   height: 500px;
 }
 
-.books{
+.books {
+  color:#FFF;
   padding: 50px;
+  position:center;
   background-color: #323232;
 }
 
