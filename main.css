@@ -38,6 +38,11 @@
   height: 500px;
 }
 
+.books{
+  padding: 50px;
+  background-color: #323232;
+}
+
 .jumbotron .container {
   position: relative;
   top:100px;
@@ -92,21 +97,6 @@
 
 .learn-more a {
   color: #00b0ff;
-}
-
-.neighborhood-guides {
-  background-color: #efefef;
-  border-bottom:1px solid #dbdbdb;
-}
-
-.neighborhood-guides h2 {
-  color: #393c3d;
-  font-size: 24px;
-}
-
-.neighborhood-guides p {
-  margin-bottom: 13px;
-  font-size: 15px;
 }
 
 
