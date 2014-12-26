@@ -1,12 +1,48 @@
-.nav a {
+td {
   color: #FFF;
-  font-size: 30px;
+  font-size: 15px;
   /*font-weight: bold;*/
   padding: 14px 10px;
   /*text-transform: uppercase;*/
-  font-family: cursive;
-  /*"Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif*/
+  font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
+tr.firstrow {
+  text-align: center !important;
+}
+tr.secondrow {
+  display: none;
+  text-align: center;
+}
+tr.firstrow:hover + tr.secondrow {
+  display: table-row;
+}
+
+/*td.linkedin2 {
+  display: none;
+}
+td.github2 {
+  display: none;
+}
+td.email2 {
+  display: none;
+}
+td.resume2 {
+  display: none;
+}
+td.linkedin1:hover + td.linkedin2{
+  display: table-cell;
+}
+td.github1:hover + td.github2{
+  display: table-cell;
+}
+td.email1:hover + td.email2{
+  display: table-cell;
+}
+td.resume1:hover + td.resume2{
+  display: table-cell;
+}*/
 /*.col-md-4{
   width: 292px;
 }*/
