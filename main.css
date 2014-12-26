@@ -66,6 +66,13 @@
   width: 130px;
   border: 0px;
 }
+.endnote{
+  background-color: #323232;
+  color:white;
+  font-weight: bold;
+  font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
 .col-md-5 {
   width: 130px;
 }
