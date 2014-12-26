@@ -47,27 +47,74 @@
             
             <div class="row">
                 <div class="col-md-4">
-                	<p class="about-me">I love to {code}</p>
+                	<p class="about-me">I love to {code}</p> <br>
                     <div>
-                      <img class="three-icon" src="coding.png" height="200px">
+                      <a href="#about-me">
+                      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="three-icon" src="coding.png" height="200px"></a>
+                      <script>
+						function bigImg(x) {
+						    x.style.height = "205px";
+						    x.style.width = "175px";
+						}
+
+						function normalImg(x) {
+						    x.style.height = "200px";
+						    x.style.width = "170px";
+						}
+					  </script>
                     </div>
                 </div>
                 <div class="col-md-4">
                 	<p class="about-me">Passionate about women in CS</p>
-                    <div>
-                      <img class="three-icon" src="woman.png" height="200px" >
+                     <div>
+                     <a href='http://cs-kickstart.berkeley.edu' target="_blank">
+                      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="three-icon" src="woman.png" height="200px"></a>
+                      <script>
+						function bigImg(x) {
+						    x.style.height = "205px";
+						    x.style.width = "175px";
+						}
+
+						function normalImg(x) {
+						    x.style.height = "200px";
+						    x.style.width = "170px";
+						}
+					  </script>
                     </div>
                 </div>
                 <div class="col-md-4">
                 	<p class="about-me">Self-proclaimed bookworm</p>
-                    <div >
-                      <img class="three-icon" src="book.png" height="200px">
+                     <div>
+                      <a href="#books"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="three-icon" src="book.png" height="200px"></a>
+                      <script>
+						function bigImg(x) {
+						    x.style.height = "205px";
+						    x.style.width = "175px";
+						}
+
+						function normalImg(x) {
+						    x.style.height = "200px";
+						    x.style.width = "170px";
+						}
+					  </script>
                     </div>
                 </div>
                 <div class="col-md-4">
                 	<p class="about-me">Focused on helping others</p>
-                    <div >
-                      <img class="three-icon" src="heart.png" height="200px">
+                     <div>
+                     <a href="http://www.kiva.org/lender/parul7621" target="_blank">
+                      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"class="three-icon" src="heart.png" height="200px"> </a>
+                      <script>
+						function bigImg(x) {
+						    x.style.height = "205px";
+						    x.style.width = "175px";
+						}
+
+						function normalImg(x) {
+						    x.style.height = "200px";
+						    x.style.width = "170px";
+						}
+					  </script>
                     </div>
                 </div>
 
@@ -79,7 +126,7 @@
          </div>
     </div>
 
-    <div class="learn-more">
+    <div id="about-me"class="learn-more">
 	  <div class="container">
 		<div class="row">
 	      <div class="col-md-3">
@@ -120,7 +167,7 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="books">
+	<div id="books"class="books">
 	<h2>My bookshelf:</h2>
 		                <style type="text/css" media="screen">
         .gr_grid_container {
