@@ -1,3 +1,8 @@
+body {
+  width:  100%;
+  height: 100%;
+}
+
 td {
   color: #FFF;
   font-size: 15px;
@@ -20,33 +25,7 @@ tr.firstrow:hover + tr.secondrow {
   display: table-row;
 }
 
-/*td.linkedin2 {
-  display: none;
-}
-td.github2 {
-  display: none;
-}
-td.email2 {
-  display: none;
-}
-td.resume2 {
-  display: none;
-}
-td.linkedin1:hover + td.linkedin2{
-  display: table-cell;
-}
-td.github1:hover + td.github2{
-  display: table-cell;
-}
-td.email1:hover + td.email2{
-  display: table-cell;
-}
-td.resume1:hover + td.resume2{
-  display: table-cell;
-}*/
-/*.col-md-4{
-  width: 292px;
-}*/
+
 .circular {
   width: 300px;
   height: 300px;
@@ -111,17 +90,17 @@ td.resume1:hover + td.resume2{
   text-align: center;
 }
 .col-md-5 {
-  width: 130px;
+  width: 14%;
 }
 .col-md-4{
-  width:292px;
+  width: 25%;
   height: 278px;
   text-align: center;
   position: center;
   /*padding-bottom: 40px;*/
 }
 .col-md-3{
-  width:320px;
+  width:24%;
   position: center;
 }
 .three-icon {
